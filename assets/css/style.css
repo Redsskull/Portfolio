@@ -281,7 +281,7 @@ nav {
 
 .portfolio {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minman(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .portfolio__item {

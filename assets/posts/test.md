@@ -1,20 +1,9 @@
-# This is a test
+{
+"title": "My Blog Post",
+"tags": ["technology", "programming"]
+}
 
-<!-- write test text here-->
+# My Blog Post
 
-```python
-print("Hello World")
-```
-
-```python
-print("Hello World")
-```
-
-```python
-print("Hello World")
-```
-
-```python
-
-```
+This is the content of my blog post.
 

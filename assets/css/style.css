@@ -288,8 +288,7 @@ header {
 
 .my-services {
   background-color: var(--clr-accent);
-  background-image: url(/assets/images/services-bg.jpg);
-  background-size: cover;
+  background-image: url(../images/services-bg.jpg);  background-size: cover;
   color: var(--clr-light);
   text-align: center;
 }

@@ -1,9 +1,8 @@
 {
-"title": "Blog coming soon!",
+"title": "And so, it begins...",
 "tags": ["technology", "programming"]
 }
 
-# Blog coming soon!
+#And so, it begins...
 
-Stay tuned, work in progress.
 

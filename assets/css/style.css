@@ -291,6 +291,7 @@ header {
   background-image: url(../images/services-bg.jpg);  background-size: cover;
   color: var(--clr-light);
   text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
 }
 
 .section__title--services {
@@ -315,6 +316,10 @@ header {
 .service {
   max-width: 500px;
   margin: 0 auto;
+}
+
+.align-left {
+  text-align: left;
 }
 
 @media (min-width: 800px) {

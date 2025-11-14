@@ -2,7 +2,7 @@
 
 Source files for my personal portfolio website.
 
-**Live site:** https://nathanielivry.io
+**Live site:** [https://nathanielivry.io](https://nathanielivry.io){target="_blank"}
 
 ## About
 
@@ -10,7 +10,7 @@ This is my portfolio showcasing my work as a backend developer focused on distri
 
 ## Built With
 
-This site is built using [rssg](https://github.com/radleylewis/rssg) - a static site generator created by [Radley Lewis](https://github.com/radleylewis). Thank you Radley for creating such a clean, straightforward tool!
+This site is built using [rssg](https://github.com/radleylewis/rssg){target="_blank"} - a static site generator created by [Radley Lewis](https://github.com/radleylewis){target="_blank"}. Thank you Radley for creating such a clean, straightforward tool!
 
 ## Structure
 ```

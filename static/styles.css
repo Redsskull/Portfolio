@@ -1,0 +1,284 @@
+/* Font Styles */
+
+html {
+  font-family: "Fira Code", "monospace", monospace, "Droid Sans Fallback";
+  overflow-y: scroll;
+}
+
+/* Toggle Theme Styles */
+
+:root {
+  --bg: #fffff0; /* ivory */
+  --text: #333333; /* charcoal */
+  --button-bg: #b5a642; /* gold */
+  --button-interior: #333333; /* charcoal */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #5a5a5a;
+    --text: #fffff0; /* ivory */
+    --button-bg: #03ffc0; /* electric green */
+    --button-interior: #333333; /* charcoal */
+  }
+}
+
+#theme:checked ~ * {
+  --bg: #5a5a5a; /* charcoal */
+  --text: #fffff0; /* ivory */
+  --button-bg: #03ffc0; /* electric green */
+  --button-interior: #333333; /* charcoal */
+}
+
+@media (prefers-color-scheme: dark) {
+  #theme:checked ~ * {
+    --bg: #fffff0; /* ivory */
+    --text: #333333; /* charcoal */
+    --button-bg: #b5a642; /* gold */
+    --button-interior: #333333; /* charcoal */
+  }
+}
+
+.scheme-wrapper {
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--text);
+}
+
+#theme {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 60px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: white;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  transition: all 0.5s ease-in;
+  cursor: pointer;
+  z-index: 99;
+}
+
+#theme::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: var(--button-interior);
+  position: absolute;
+  top: 50%;
+  left: 3px;
+  transform: translateY(-50%);
+  transition: all 0.5s ease-in;
+}
+
+#theme:checked {
+  background: var(--button-bg);
+}
+
+#theme:checked::before {
+  background: var(--button-interior);
+  left: 32px;
+}
+
+/* Body Styles */
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--bg);
+  margin: 0;
+}
+
+.navbar {
+  top: 0;
+  width: 50rem;
+  position: fixed;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.navbar__left {
+  display: flex;
+  justify-content: start;
+  padding: 0px;
+}
+
+.navbar__logo {
+  width: 5rem;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: var(--text);
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.navbar-brand-text {
+  font-size: 1.8rem; /* Larger font size */
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--text);
+  align-self: flex-end; /* Position lower */
+  padding-bottom: 0.5rem; /* Additional padding to move it down */
+  transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.navbar-brand-text:hover {
+  color: var(--button-bg); /* Change color on hover to match theme */
+}
+
+.flag-icon-small {
+  height: 1.5rem;
+  vertical-align: middle;
+}
+
+.navbar__right {
+  display: flex;
+  margin-top: 30px;
+  padding: 0px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.navbar__link a {
+  text-decoration: none;
+  color: var(--text);
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 7.5px;
+  margin-right: 7.5px;
+}
+
+.navbar__link a:hover {
+  color: var(--button-bg);
+}
+
+.navbar__link #active,
+.navbar__link a:active,
+.navbar__link a:focus {
+  outline: none;
+  border-bottom: 2px solid var(--button-bg);
+}
+
+.container {
+  max-width: 50rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.content {
+  margin-top: 150px;
+  z-index: 0;
+}
+
+.content::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px; /* Height of the top section you want to style */
+  backdrop-filter: blur(4px);
+  filter: blur(4px);
+  -o-filter: blur(4px);
+  -ms-filter: blur(4px);
+  -moz-filter: blur(4px);
+  -webkit-filter: blur(4px);
+}
+
+.footer {
+  margin-top: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: var(--button-bg);
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.header-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.header-section h1 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; /* Space between name and flag */
+}
+
+.flag-icon {
+  height: 1.5rem; /* Adjust size as needed */
+  vertical-align: middle;
+}
+
+.about-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.about-header img.profile-pic {
+  margin-right: 16rem; /* Doubled the margin to push the name even further right */
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;  /* Makes the image circular */
+  object-fit: cover;   /* Ensures the image covers the area without distortion */
+}
+
+.flag-icon-inline {
+  height: 1.5rem;
+  vertical-align: middle;
+}
+
+@media (max-width: 55rem) {
+  .navbar {
+    flex-direction: column;
+  }
+  .navbar__right {
+    margin-top: 10px;
+    width: 100vw;
+    justify-content: space-between;
+  }
+  .navbar__left {
+    width: 50vw;
+    margin-left: 0.5rem;
+  }
+  .navbar__link {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  .content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .content::before {
+    height: 130px;
+  }
+  .footer {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    overflow-wrap: break-word;
+    padding-bottom: 0;
+  }
+}

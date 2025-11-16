@@ -12,6 +12,8 @@ I also love telling stories through code - whether that's interactive fiction in
 
 ## What I Build
 
+**💼 [Stock Trading Simulator](/projects)** - Flask web application with PostgreSQL, user authentication, and real-time stock data. Live on Render with full database management and API integration.
+
 **🌤️ [Weather Intelligence System](/projects)** - Go + Python hybrid with pattern recognition and concurrent data collection. Teaching two languages to talk through JSON orchestration.
 
 **🎮 [Warcraft Logs CLI](/projects)** - GraphQL API wrapper with OAuth2 authentication. Learning complex APIs by building real tools.

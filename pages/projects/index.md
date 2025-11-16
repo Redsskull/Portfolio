@@ -15,6 +15,19 @@ A hybrid system that makes two languages talk through JSON orchestration. Featur
 
 ---
 
+## 💼 Stock Trading Simulator | Python, Flask, PostgreSQL
+Full-stack web application with user authentication, real-time stock data, and transaction management.
+
+Built with Flask, SQLAlchemy ORM, and PostgreSQL. Features database migrations, secure password hashing, session management, and API integration with Finnhub for live market data. Deployed to production on Render.
+
+- User authentication and session management
+- Database design with SQLAlchemy ORM and migrations
+- RESTful operations for trading, portfolio management
+- Real-time stock data via API integration
+- Production deployment with PostgreSQL
+
+<a href="https://stock-trading-simulator.onrender.com/">View Live Demo</a> | <a href="https://github.com/Redsskull/stock-trading-simulator">View on GitHub</a>
+
 ## 🎮 Warcraft Logs CLI
 **Go | GraphQL | OAuth2**
 

@@ -58,7 +58,7 @@ html {
   right: 20px;
   transition: all 0.5s ease-in;
   cursor: pointer;
-  z-index: 99;
+  z-index: 100;
 }
 
 #theme::before {
@@ -280,5 +280,13 @@ body {
     margin-right: 1rem;
     overflow-wrap: break-word;
     padding-bottom: 0;
+  }
+
+  /* Reset theme toggle positioning to ensure visibility on mobile */
+  #theme {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 99;
   }
 }

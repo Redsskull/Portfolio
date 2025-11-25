@@ -28,6 +28,35 @@ Built with Flask, SQLAlchemy ORM, and PostgreSQL. Features database migrations, 
 
 <a href="https://stock-trading-simulator.onrender.com/">View Live Demo</a> | <a href="https://github.com/Redsskull/stock-trading-simulator">View on GitHub</a>
 
+## 💬 P2P Chat System | Go, Distributed Systems, Network Programming
+
+Production-ready peer-to-peer chat application inspired by IRC and early internet protocols. Features full mesh networking, automatic peer discovery via UDP multicast, and beautiful terminal UI built with Bubble Tea.
+
+**Technical Highlights:**
+- Full P2P mesh network topology (every peer connects to every other peer)
+- Automatic peer discovery using UDP multicast (224.0.0.1:9999)
+- Direct TCP connections for reliable real-time messaging
+- Smart port assignment with collision detection (8080-8999 range)
+- IRC-style commands (/help, /users, /nick, /clear, /quit)
+- Network resilience with automatic reconnection
+- Cross-platform with system installation support (Linux)
+
+**Architecture:**
+- UDP multicast for local network peer discovery
+- TCP mesh connections for reliable message delivery
+- JSON-based message protocol
+- Goroutines for non-blocking network I/O
+- Terminal UI with color-coded users and live status updates
+
+**Production Features:**
+- System-wide installation (`sudo make install` gives `p2pchat` command)
+- Comprehensive documentation with architecture diagrams
+- Interactive demo script showcasing all features
+- Validated through multi-user testing (3+ simultaneous users)
+- Live demonstration via asciinema recording
+
+[View on GitHub](https://github.com/Redsskull/p2pchat) | [Watch Demo](https://asciinema.org/a/ykPnzDlq7LGyskLnWRf5NWO1T)
+
 ## 🎮 Warcraft Logs CLI
 **Go | GraphQL | OAuth2**
 

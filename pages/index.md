@@ -22,7 +22,7 @@ I also love telling stories through code - whether that's interactive fiction in
 
 **📖 [Knights and Creatures](/projects)** - Python text adventure with branching narratives and class-specific story paths. My first solo project, where I learned to turn stories into code.
 
-**💬 P2P Chat System** *(in progress)* - IRC-style distributed chat. Building on my early internet roots with modern Go.
+**💬 [P2P Chat System](/projects)** - Production-ready distributed chat with full mesh networking, UDP discovery, and TCP connections. Complete with system installation, cross-platform support, and live demo.
 
 ---
 

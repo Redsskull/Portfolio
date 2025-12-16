@@ -6,6 +6,11 @@ Technical writing about distributed systems, learning in public, and building in
 
 ## Recent Posts
 
+### [How I Got Past the "Works on My Machine" Problem](/blog/2025/how-i-got-past-the-works-on-my-machine-problem.html)
+*January 2025*
+
+From debugging PowerShell scripts across continents to one-command deployment with containers. Why I chose Podman over Docker, and how containerization saved my friend from stealing my WoW gold.
+
 ### [From "I Can't Code" to Building Distributed Systems](/blog/2025/from-i-cant-code-to-building-distributed-systems.html)
 *January 2025*
 

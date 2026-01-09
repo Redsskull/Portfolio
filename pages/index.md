@@ -1,43 +1,49 @@
-# Building Systems That Think
+# Building Systems That Survive Reality
 
-I'm Nate - a programmer who designs intelligent systems from the ground up.
+I’m Nate — a **systems programmer** focused on reliability, automation, and intelligent infrastructure.
 
-After an unexpected career change at 35, I discovered that programming isn't about memorizing syntax or making interfaces pretty (though those are valuable skills). It's about understanding how systems work, breaking complex problems into solvable pieces, and building software that does what it needs to do.
+After an unexpected career change at 35, I discovered that programming isn’t about syntax or shiny interfaces (though those matter). It’s about **understanding systems**, anticipating failure, and building software that keeps working when conditions change.
 
-I grew up on IRC, Usenet, and Hotline on my dad's Macintosh, so distributed systems and network protocols feel natural to me. I focus on backend architecture, concurrent systems, and making software that works at the foundational level.
+I grew up on IRC, Usenet, and Hotline on my dad’s Macintosh — environments where systems were distributed, unreliable, and alive. That background made networking, concurrency, and infrastructure feel natural long before I knew the words *DevOps* or *SRE*.
 
-I also love telling stories through code - whether that's interactive fiction inspired by Asimov or emergent systems where behavior surprises even me.
+Today I focus on **backend systems, automation, and operational tooling** — software that doesn’t just run, but *runs well*.
+
+I like code that behaves like a living system: observable, resilient, and sometimes surprising.
 
 ---
 
 ## What I Build
 
-**💼 [Stock Trading Simulator](/projects)** - Flask web application with PostgreSQL, user authentication, and real-time stock data. Live on Render with full database management and API integration.
+**💼 [Stock Trading Simulator](/projects)**
+Flask + PostgreSQL system with authentication, external APIs, environment-based configuration, and production deployment. Focused on data integrity, failure handling, and reproducible environments.
 
-**🌤️ [Weather Intelligence System](/projects)** - Go + Python hybrid with pattern recognition and concurrent data collection. Teaching two languages to talk through JSON orchestration.
+**🌤️ [Weather Intelligence System](/projects)**
+Go + Python hybrid system using concurrent data collection and JSON orchestration. Designed to explore cross-language services, pattern recognition, and operational coordination.
 
-**🎮 [Warcraft Logs CLI](/projects)** - GraphQL API wrapper with OAuth2 authentication. Learning complex APIs by building real tools.
+**💬 [P2P Chat System](/projects)**
+Production-ready distributed chat with UDP discovery, TCP connections, full-mesh networking, system installation, and cross-platform support. A hands-on exploration of reliability, discovery, and real-world networking.
 
-**⚔️ [War Card Game](/projects)** - Cross-platform GUI with Go and Fyne framework. My first complete project from CS50, teaching me about shipping polished software.
+**🎮 [Warcraft Logs CLI](/projects)**
+GraphQL API client with OAuth2, caching, and structured analysis. Built to automate data retrieval, validate assumptions, and surface hidden system behavior.
 
-**📖 [Knights and Creatures](/projects)** - Python text adventure with branching narratives and class-specific story paths. My first solo project, where I learned to turn stories into code.
+**⚔️ [War Card Game](/projects)**
+Cross-platform GUI built in Go using Fyne. My first fully shipped product — taught me packaging, distribution, and user-facing reliability.
 
-**💬 [P2P Chat System](/projects)** - Production-ready distributed chat with full mesh networking, UDP discovery, and TCP connections. Complete with system installation, cross-platform support, and live demo.
-
----
-
-## What I Love
-
-- Designing systems that solve real problems
-- Understanding how distributed networks communicate
-- Building backend infrastructure that others depend on
-- Making software that learns and adapts
-- Telling stories through interactive code
+**📖 [Knights and Creatures](/projects)**
+A Python text adventure with branching logic and emergent behavior — my first experiment in systems that *tell stories*.
 
 ---
 
-**[About Me](/about)** • **[Projects](/projects)** • **[Contact](/contact)**
+## What I Care About
+
+* Reliability over cleverness
+* Automation over repetition
+* Observability over guessing
+* Systems that degrade gracefully
+* Infrastructure that developers trust
 
 ---
 
-*"I learned every day after bashing my head against the wall - and that's exactly how real programming skills are built."*
+**[About](/about)** • **[Projects](/projects)** • **[Contact](/contact)**
+
+> *“Real systems are learned the same way real flying is: by respecting failure and practicing recovery.”*

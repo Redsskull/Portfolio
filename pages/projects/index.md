@@ -58,13 +58,28 @@ Production-ready peer-to-peer chat application inspired by IRC and early interne
 [View on GitHub](https://github.com/Redsskull/p2pchat) | [Watch Demo](https://asciinema.org/a/ykPnzDlq7LGyskLnWRf5NWO1T)
 
 ## 🎮 Warcraft Logs CLI
-**Go | GraphQL | OAuth2**
+**Go | GraphQL | OAuth2 | Professional Interrupt Analysis**
 
-A command-line tool for querying the Warcraft Logs API. Learned GraphQL by diving into a complex real-world API instead of following tutorials. Features damage/healing analysis, death timelines, and interrupt tracking.
+A command-line tool for querying the Warcraft Logs API that achieves professional-grade interrupt analysis matching the web interface. The breakthrough discovery of WCL's hidden `extraAbilityGameID` field enables perfect spell-to-interrupt correlation - something I figured out through API exploration, not documentation.
+
+**Key Achievements:**
+- **Professional interrupt analysis** with spell correlation and success rate tracking
+- **Advanced death timelines** showing exact damage sources in 5-second windows
+- **OAuth2 token management** with automatic refresh flows
+- **Smart caching system** for ability names and player lookups
+- **Player-specific analysis** with detailed timing breakdowns
+- **Verbose mode** with API progress tracking and cache statistics
+
+**Technical Highlights:**
+- Complex GraphQL queries with nested event correlation
+- Discovery of undocumented API fields through experimentation
+- Real-time terminal UI with colorized output and progress indicators
+- CSV/JSON export capabilities for data analysis
+- Concurrent API calls with intelligent rate limiting
 
 <a href="https://github.com/Redsskull/wclogs-cli" target="_blank" rel="noopener noreferrer">View on GitHub</a>
 
-**What I learned:** GraphQL query construction, OAuth2 flows, complex JSON parsing, terminal UI design
+**What I learned:** GraphQL mastery through real-world complexity, OAuth2 lifecycle management, API field discovery, event correlation algorithms, professional CLI design
 
 ---
 

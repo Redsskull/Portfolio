@@ -89,7 +89,7 @@ I bring maturity, systems thinking, and respect for operational reality.
 ## Connect
 
 * **GitHub:** <a href="https://github.com/Redsskull" target="_blank" rel="noopener noreferrer">github.com/Redsskull</a>
-* **LinkedIn:** <a href="https://www.linkedin.com/in/redsskull" target="_blank" rel="noopener noreferrer">linkedin.com/in/redsskull</a>
+* **LinkedIn:** <a href="https://www.linkedin.com/in/nathanielivry" target="_blank" rel="noopener noreferrer">linkedin.com/in/redsskull</a>
 * **Portfolio:** <a href="https://nathanielivry.dev" target="_blank" rel="noopener noreferrer">nathanielivry.dev</a>
 
 ---

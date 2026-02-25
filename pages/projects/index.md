@@ -1,11 +1,36 @@
 # Projects
 
-A collection of systems I've built while learning to program. Each project taught me something new about designing intelligent software.
-Some of them could have users though!
+A collection of systems I've built — for clients and for myself. Each one taught me something real.
 
 ---
 
-## 💬 P2P Chat System
+## 🔧 Selected Client Work — Rails, Go & Systems Integration
+**Ruby on Rails · Go · MySQL · Jellyfin API · Synology DSM · Docker**
+*Private clients · 2024–present*
+
+Production systems built for private clients with real constraints and real users.
+
+**What I built:**
+- A Ruby on Rails web application with user authentication, CRUD flows, RESTful API design, and MySQL database — from schema design to deployment
+- A Go binary that concurrently scans a Synology NAS for new video files, calls the Jellyfin API to generate iframe embed links, and delivers structured data to the Rails app — three systems connected, each doing what it does best
+- MySQL schema design for multiple clients: normalization, indexing, and data modelling built from direct client requirements
+- Integrated Synology's DSM environment with the hosted Rails application to bridge on-premise storage with the web app
+
+**What I learned:** This is where I found my identity as a programmer. Ruby for application logic, Go when I need concurrency or need to beat up a CPU (Hello DHH), vanilla JavaScript when the client needs something in the browser. Each tool chosen deliberately. The Synology integration in particular — connecting hardware that wasn't designed to talk to a web app — was exactly the kind of problem I love: no clean documentation (I own over 1000 books and love to read, but I need two cups of coffee to read documentation), just systems that need to work together.
+
+---
+
+*Beyond the larger projects above, I do smaller work for local people — a broken website, a payment flow, a contact form that stopped working. That's actually how I became a freelancer: I had no work, so I started offering to solve tech problems for friends. One thing led to another.*
+
+---
+
+## 🧪 Personal & Learning Projects
+
+*These are the projects I built to learn — distributed systems, API design, language exploration.*
+
+---
+
+### 💬 P2P Chat System
 **Go, Distributed Systems, Network Programming**
 
 Production-ready peer-to-peer chat application inspired by IRC and early internet protocols. Features full mesh networking, automatic peer discovery via UDP multicast, and beautiful terminal UI built with Bubble Tea.
@@ -39,8 +64,7 @@ Production-ready peer-to-peer chat application inspired by IRC and early interne
 
 ---
 
-
-## 🌤️ Weather Intelligence System
+### 🌤️ Weather Intelligence System
 **Go + Python | Pattern Recognition | Concurrent Processing**
 
 A hybrid system that makes two languages talk through JSON orchestration. Features pattern recognition, intelligent caching, and concurrent data collection from multiple locations. My first experience orchestrating cross-language systems.
@@ -51,7 +75,7 @@ A hybrid system that makes two languages talk through JSON orchestration. Featur
 
 ---
 
-## 💼 Stock Trading Simulator
+### 💼 Stock Trading Simulator
 **Python, Flask, PostgreSQL**
 
 Full-stack web application with user authentication, real-time stock data, and transaction management.
@@ -70,7 +94,7 @@ Built with Flask, SQLAlchemy ORM, and PostgreSQL. Features database migrations, 
 
 ---
 
-## 📖 Ruby CLI Journal
+### 📖 Ruby CLI Journal
 **Ruby | CLI Design | Developer Tooling**
 
 A terminal-based journaling application exploring Ruby's expressiveness for CLI design and backend logic. Currently in active development - building it to understand how Ruby handles persistence, search, and user interaction patterns.
@@ -87,7 +111,7 @@ A terminal-based journaling application exploring Ruby's expressiveness for CLI 
 
 ---
 
-## 🎮 Warcraft Logs CLI
+### 🎮 Warcraft Logs CLI
 **Go | GraphQL | OAuth2 | Professional Interrupt Analysis**
 
 A command-line tool for querying the Warcraft Logs API that achieves professional-grade interrupt analysis matching the web interface. The breakthrough discovery of WCL's hidden `extraAbilityGameID` field enables perfect spell-to-interrupt correlation - something I figured out through API exploration, not documentation.
@@ -109,11 +133,11 @@ A command-line tool for querying the Warcraft Logs API that achieves professiona
 
 <a href="https://github.com/Redsskull/wclogs-cli" target="_blank" rel="noopener noreferrer">View on GitHub</a>
 
-**What I learned:** I certainly learned about complex GraphQL APIs, that's for sure. I called them all in curl to learn what they do because I'd never heard of Postman before. The project is not complete, uses correlation when I didn't know how to get exact data, and is more of a passion testimony to my love for World of Warcraft raiding of 10 years ago. Perhaps I'll turn this into a FOSS Subcreation one day.
+**What I learned:** I certainly learned about complex GraphQL APIs, that's for sure. I called them all in curl to learn what they do(A senior dev friend of mine told me about Bruno..after I spent a week doing this). The project is not complete, uses correlation when I didn't know how to get exact data, and is more of a passion testimony to my love for World of Warcraft raiding of 10 years ago. Perhaps I'll turn this into a FOSS Subcreation one day.
 
 ---
 
-## ⚔️ War Card Game
+### ⚔️ War Card Game
 **Go | Fyne | Cross-Platform GUI**
 
 My first complete project from CS50. A full-featured card game with GUI, sound effects, and professional packaging for Windows, Linux, and macOS. Taught me about asset bundling, cross-compilation with Zig, and shipping polished software.
@@ -124,7 +148,7 @@ My first complete project from CS50. A full-featured card game with GUI, sound e
 
 ---
 
-## 📖 Knights and Creatures
+### 📖 Knights and Creatures
 **Python | Interactive Fiction | Branching Narratives**
 
 A text adventure inspired by Asimov's storytelling. Features four character classes, branching narratives, class-specific puzzle solutions, and a companion system. My first solo project where I learned to turn stories into code.

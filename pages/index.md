@@ -10,25 +10,38 @@ Today I focus on **backend systems, automation, and developer tooling** — code
 
 ---
 
+## Selected Client Work
+
+**🔧 Ruby on Rails Web Application**
+*Ruby on Rails · MySQL · JavaScript · REST APIs*
+Full-stack web application built for a private client: user authentication, CRUD flows, relational database design from schema to deployment, and RESTful API integration. Built with Rails conventions and a deliberate eye on what the client actually needed — not what was technically interesting.
+
+**⚙️ Go Service — Jellyfin & NAS Integration**
+*Go · Jellyfin API · Concurrent I/O · Systems Integration*
+A Go binary that concurrently scans a client's Synology NAS for new video files, calls the Jellyfin API to generate iframe embed links, and delivers structured data to the Rails app. Go chosen deliberately — lightweight goroutines to handle large directory trees within tight memory constraints. Three systems connected, each doing what it does best.
+
+**🗄️ MySQL Schema Design**
+*MySQL · Relational Design · Normalization · Indexing*
+Database design for multiple clients — normalization, indexing, and data modelling built from direct client requirements and prepared for production load.
+
+---
+
 ## Selected Projects
 
-**💬 [P2P Chat System](/projects)**  
-Distributed chat with UDP discovery, TCP connections, and full-mesh networking. Production-ready with system installation and cross-platform support. *This one's my greatest passion.*
+**💬 [P2P Chat System](/projects)**
+Distributed chat with UDP discovery, TCP connections, and full-mesh networking. *My greatest passion — and my most opinionated code.*
 
-**🌤️ [Weather Intelligence System](/projects)**  
-Go + Python hybrid system with concurrent data collection and JSON orchestration. Built to explore cross-language services and operational coordination. *I made this to make two languages talk to each other somehow.*
+**🎮 [Warcraft Logs CLI](/projects)**
+GraphQL API client with OAuth2 and structured interrupt analysis. Discovered an undocumented API field through curl exploration. *A work in progress.*
 
-**📖 [Ruby CLI Journal](/projects)**  
-Terminal-based journaling application exploring Ruby's expressiveness for CLI design and backend logic. Currently in active development. *This one's in my favorite language.*
+**📖 [Ruby CLI Journal](/projects)**
+Built in my favorite language, 1970s-style: code, books, and a ruler for debug. *This one made me a programmer.*
 
-**💼 [Stock Trading Simulator](/projects)**  
-Flask + PostgreSQL backend with authentication, external APIs, and environment-based configuration. Focus on data integrity and failure handling. *Everyone's gotta CRUD!*
+**🌤️ [Weather Intelligence System](/projects)**
+Go + Python talking through JSON. *My first time making two languages cooperate.*
 
-**🎮 [Warcraft Logs CLI](/projects)**  
-GraphQL API client with OAuth2, caching, and structured analysis. Automates data retrieval and surfaces hidden system behavior. *This one's huge — a work in progress that made me and Claude (Daneel) lose our minds.*
-
-**⚔️ [War Card Game](/projects)**  
-Cross-platform GUI built in Go using Fyne. My first fully shipped product — taught me packaging, distribution, and user-facing reliability. *My first foray into GUI.*
+**💼 [Stock Trading Simulator](/projects)**
+Flask + PostgreSQL, deployed to production. School project  *Everyone's gotta CRUD!*
 
 ---
 

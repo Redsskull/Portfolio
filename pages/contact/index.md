@@ -1,7 +1,7 @@
 # Contact
 
 **GitHub:** [github.com/Redsskull](https://github.com/Redsskull)
-**LinkedIn:** [linkedin.com/in/redsskull](https://www.linkedin.com/in/redsskull/)
+**LinkedIn:** [linkedin.com/in/redsskull](https://www.linkedin.com/in/nathanielivry/)
 **Email:**  ivry91@gmail.com
 
 ---
